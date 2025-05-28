@@ -1,41 +1,51 @@
-# 💱 Conversor de Moedas em Python
+# 🌍 Conversor de Moedas com Cotações em Tempo Real
 
-Este programa simples em Python permite ao usuário informar quanto dinheiro possui em reais (R$) e exibe o valor correspondente em Dólares Americanos (USD), Euros (EUR) e Ienes Japoneses (JPY), com base em taxas de câmbio fixas.
+Este programa em Python converte valores de reais (R$) para Dólar (USD), Euro (EUR) e Iene Japonês (JPY), utilizando **cotações em tempo real** obtidas através da API [ExchangeRate.host](https://exchangerate.host).
 
-## 🧮 Funcionalidades
+## ⚙️ Funcionalidades
 
-- Solicita ao usuário o valor em reais disponível na carteira.
-- Realiza a conversão para:
-  - Dólar americano (US$)
-  - Euro (€)
-  - Iene japonês (¥)
-- Exibe os valores convertidos com duas casas decimais.
+- Entrada de valor em reais (R$)
+- Conversão para:
+  - Dólar americano (USD)
+  - Euro (EUR)
+  - Iene japonês (JPY)
+- Utiliza dados de câmbio atualizados via API
+- Saída formatada com duas casas decimais
 
-## 💵 Taxas de Câmbio Utilizadas
+## 🔌 Requisitos
 
-- **US$1,00 = R$5,50**
-- **€1,00 = R$6,49**
-- **¥1,00 = R$0,04**
-
-> **Nota:** As taxas são fixas e não atualizam automaticamente. Ideal para fins educacionais e simulações.
+- Python 3.x
+- Biblioteca `requests` (instale com `pip install requests`)
 
 ## 💻 Como Usar
 
-1. Salve o código como `conversor_moedas.py`.
-2. Execute o script com Python:
+1. Salve o código como `conversor_moedas.py`
+2. Instale a biblioteca `requests`, se necessário:
+   ```bash
+   pip install requests
+   ```
+3. Execute o script:
 
 ```bash
-python conversor_moedas.py
+  python conversor_moedas.py
 ```
-3. Digite o valor em reais quando solicitado.
+
+4. Digite o valor em reais e veja a conversão ao vivo!
 
 ## 📋 Exemplo de Saída
 
+```
 Quanto dinheiro você tem na carteira? R$100
-Com R$100.00 você pode comprar US$18.18, ou, €15.41, ou , ¥2500.00
+Com R$100.00 você pode comprar:
+- US$19.24
+- €17.56
+- ¥2943.84
+```
 
-## ✅ Requisitos
-Python 3.x
+## 🌐 Fonte dos Dados
+
+ExchangeRate.host – API gratuita e sem autenticação.
 
 ## 📄 Licença
-Este projeto é livre para uso pessoal e educacional.
+
+Este projeto é de uso livre para fins educacionais e pessoais.
