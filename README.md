@@ -47,5 +47,12 @@ Com R$100.00 você pode comprar:
 ExchangeRate.host – API gratuita e sem autenticação.
 
 ## 📄 Licença
+<<<<<<< HEAD
 
 Este projeto é de uso livre para fins educacionais e pessoais.
+=======
+Este projeto é livre para uso pessoal e educacional, Faz Parte do Projeto [Estudos Python](https://github.com/ei-Gih/Estudos_Python), cofira os outros.
+
+## ✨ Contribuição
+Esse é o meu primeiro projeto na área de programação e estou sempre buscando melhorar! Feedbacks e sugestões são muito bem-vindos. 🚀
+>>>>>>> c0d40afb17c9d4aef9ce79989bc386486986a94d
